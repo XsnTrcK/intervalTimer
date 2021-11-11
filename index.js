@@ -3,7 +3,8 @@
  */
 
 import {AppRegistry} from 'react-native';
-import App from './App';
 import {name as appName} from './app.json';
+import EditableIntervalTimer from './src/intervalTimers/Screens/editableIntervalTimer';
+import TimerList from './src/Timers/Screens/timerList';
 
-AppRegistry.registerComponent(appName, () => App);
+AppRegistry.registerComponent(appName, () => EditableIntervalTimer);
